@@ -58,3 +58,10 @@ Below is a comparison of the original digit, the masked version of the digit, an
 #### Figure 2: Hidden Weights Visualization
 The following figure shows the learned weights of the hidden layer of the RBM. Each small image represents the weights associated with one hidden unit.
 ![Hidden Weights](figures/weights.png)
+
+
+### 4. Generative Use
+The model can also be used to generate new images of digits.
+<p align="center">
+  <img src="figures/rbm_evolution.gif" alt="Generative Evolution" width="300" />
+</p>
